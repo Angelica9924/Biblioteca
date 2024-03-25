@@ -1,0 +1,35 @@
+<div class="editar">
+    <div class="nombres">
+        <label for="">Nombre:</label>
+        <input class="form-control" type="text">
+    </div>
+    <div class="direccion">
+        <label for="">Dirección:</label>
+        <input class="form-control" type="text">
+    </div>
+    <div class="correo">
+        <label for="">Correo:</label>
+        <input class="form-control" type="email">
+    </div>
+    <div class="telefono">
+        <label for="">Telefono:</label>
+        <input class="form-control" type="number">
+    </div>
+    <label for="">Genero:</label>
+  <div class="genero">
+      <select class="form-control" name="genero" id="">
+        <option selected disabled>seleccionar</option>
+        <option value="Hombre">Hombre</option>
+        <option value="Mujer">Mujer</option>
+        <option value="Otro">Otro</option>
+    </select>
+  </div>
+  <div class="edad">
+    <label for="">Edad:</label>
+    <input class="form-control" type="number">
+  </div>
+</div>
+<br>
+<div class="boton d-flex justify-content-center">
+    <a class="btn btn-primary" asp-area="" asp-controller="Usuarios" asp-action="Index">Actualizar usuario</a>
+</div>

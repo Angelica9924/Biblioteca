@@ -1,0 +1,42 @@
+@* <div class="nav d-flex">
+    <ul>
+        <a asp-area="" asp-controller="Dashboard" asp-action="Index"><li>Inicio</li></a>
+        <li>Gestión de Usuarios</li>
+    </ul>
+</div> *@
+<div class="informacion">
+
+    <div class="nombres">
+        <label for="">Nombres:</label>
+        <input class="form-control" type="text">
+    </div>
+    <div class="direccion">
+        <label for="">Dirección:</label>
+        <input class="form-control" type="text">
+    </div>
+    <div class="correo">
+        <label for="">Apellidos:</label>
+        <input class="form-control" type="email">
+    </div>
+    <div class="telefono">
+        <label for="">Telefono:</label>
+        <input class="form-control" type="number">
+    </div>
+    <div class="genero">
+        <label for="">Genero:</label>
+        <select class="form-control" name="" id="">Genero
+            <option selected disabled value="Seleccionar">Seleccionar</option>
+            <option value="Hombre">Hombre</option>
+            <option value="Mujer">Mujer</option>
+            <option value="Otro">Otro</option>
+        </select>
+    </div>
+    <div class="edad">
+        <label for="">Edad:</label>
+        <input class="form-control" type="number">
+    </div>
+</div> <br>
+
+<div class="boton d-flex justify-content-center">
+    <a class="btn btn-primary" asp-area="" asp-controller="Usuarios" asp-action="Index">Crear usuario</a>
+</div>

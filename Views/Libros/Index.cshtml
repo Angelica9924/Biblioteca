@@ -1,0 +1,29 @@
+<div class="nuevoLibro"> 
+    <a class="btn btn-primary" asp-area=""asp-controller="Libros"asp-action="Create">Crear nuevo libro</a>
+</div>
+<br>
+<div class="tabla">
+    <table class="table">
+        <thead>
+            <td>Titulo:</td>
+            <td>Autor:</td>
+            <td>Genero literario:</td>
+            <td>Año publicación:</td>
+            <td>Numero copias:</td>
+            <td>Acciones:</td>
+        </thead>
+        <tr>
+            <td>Cien años de soledad</td>
+            <td>Gabriel Garcia Marquez</td>
+            <td>Realismo mágico</td>
+            <td>1967</td>
+            <td>30</td>
+            <td>
+                <a class="btn btn-danger" asp-area="" asp-controller="Libros"asp-action="Delete">Eliminar</a>
+                <a class="btn btn-success" asp-area=""asp-controller="Libros"asp-action="Update">Editar</a>
+                <a class ="btn btn-primary" asp-area="" asp-controller="Libros"asp-action="Show">Detalles</a>
+            </td>
+
+        </tr>
+    </table>
+</div>

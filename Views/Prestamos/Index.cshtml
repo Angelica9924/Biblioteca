@@ -1,0 +1,28 @@
+<div class="crear">
+    <a class="btn btn-primary" asp-area="" asp-controller="Prestamos" asp-action="Create">Crear nuevo prestamo</a>
+</div>
+<br>
+<div class="tabla">
+    <table class="table">
+        <thead>
+            <td>Libros:</td>
+            <td>Usuarios:</td>
+            <td>Fecha entrega:</td>
+            <td>Fecha devolución</td>
+            <td>Acciones</td>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cien años de soledad</td>
+                <td>Luis</td>
+                <td>12/02/2024</td>
+                <td>12/17/2024</td>
+                <td>
+                    <a class="btn btn-danger" asp-area="" asp-controller="Prestamos" asp-action="Delete">Eliminar</a>
+                    <a class="btn btn-success" asp-area="" asp-controller="Prestamos" asp-action="Update">Editar</a>
+                    <a class="btn btn-primary"asp-area="" asp-controller="Prestamos" asp-action="Show">Detalles</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

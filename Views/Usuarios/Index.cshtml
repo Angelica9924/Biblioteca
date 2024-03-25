@@ -1,0 +1,63 @@
+<div class="crear">
+    <a class="btn btn-primary" asp-area="" asp-controller="Usuarios"asp-action="Create">Crear nuevo usuario</a>
+</div>
+
+<div class="tabla">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombres:</th>
+                <th>Dirección:</th>
+                <th>Correo:</th>
+                <th>Teléfono:</th>
+                <th>Género:</th>
+                <th>Edad:</th>
+                <th>Acciones:</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Luis</td>
+                <td>Cra 65#34-52</td>
+                <td>luis@gmail.com</td>
+                <td>5807654</td>
+                <td>M</td>
+                <td>25</td>
+                <td>
+                    <a class="btn btn-danger" asp-area="" asp-controller="Usuarios" asp-action="Delete">Eliminar</a>
+                    <a class="btn btn-success" asp-area="" asp-controller="Usuarios" asp-action="Update">Editar</a>
+                    <a class="btn btn-primary" asp-area="" asp-controller="Usuarios" asp-action="Show">Detalles</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+@* <div class="tabla">
+    <table class="table">
+        <th>
+            <td>Nombres:</td>
+            <td>Dirección:</td>
+            <td>Correo:</td>
+            <td>Telefono</td>
+            <td>Genero:</td>
+            <td>Edad</td>
+            <td>Acciones</td>
+        </th>
+        <tbody>
+            <tr>
+                <td>Luis</td>
+                <td>Cra 65#34-52</td>
+                <td>luis@gmail.com</td>
+                <td>5807654</td>
+                <td>M</td>
+                <td>25</td>
+                <td>
+                    <a class="btn btn-danger" asp-area="" asp-controller="Usuarios" asp-action="Delete">Eliminar</a>
+                    <a class="btn btn-success" asp-area="" asp-controller="Usuarios" asp-action="Update">Editar</a>
+                    <a class="btn btn-primary"asp-area="" asp-controller="Usuarios" asp-action="Show">Detalles</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div> *@
